@@ -583,7 +583,14 @@ const iflytekModels = [
   "4.0Ultra",
 ];
 
-const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
+const deepseekModels = [
+  "deepseek-chat",
+  "deepseek-coder",
+  "deepseek-reasoner",
+
+  "deepseek-ai/DeepSeek-R1",
+  "deepseek-ai/DeepSeek-V3",
+];
 
 const xAIModes = ["grok-beta"];
 
@@ -610,14 +617,12 @@ const chatglmModels = [
 const siliconflowModels = [
   "Qwen/Qwen2.5-7B-Instruct",
   "Qwen/Qwen2.5-72B-Instruct",
-  "deepseek-ai/DeepSeek-R1",
-  "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-  "deepseek-ai/DeepSeek-V3",
+  // "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
   "meta-llama/Llama-3.3-70B-Instruct",
   "THUDM/glm-4-9b-chat",
 ];

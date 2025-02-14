@@ -104,5 +104,6 @@ export function fetch(url: string, options?: RequestInit): Promise<Response> {
         return new Response("", { status: 599 });
       });
   }
+
   return window.fetch(url, options);
 }
